@@ -7,6 +7,7 @@ class CreatePost extends React.Component {
   }
 
   handleChange() {
+
     this.setState({
       desc: this.refs.text.getDOMNode().value
     });
